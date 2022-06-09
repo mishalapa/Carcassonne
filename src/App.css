@@ -22,14 +22,6 @@
   width: 90px;
   height: 90px;
 }
-.carts {
-  display: flex;
-    width: 1161px;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 0 189px;
-    align-items: center;
-}
 .cart {
   display: flex;
   align-items: center;
@@ -245,4 +237,154 @@
   flex-direction: column-reverse;
   background-color: #65a9bd29;
   padding: 0 30px;
+}
+
+
+@media screen and (max-width:1600px){
+  .carts {
+    display: flex;
+      width: 1161px;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 auto;
+      align-items: center;
+  }
+}
+
+@media screen and (max-width:1270px){
+  .carts {
+    display: flex;
+      width: 970px;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 auto;
+      align-items: center;
+  }
+  .player__five-point {
+    right: 353px;
+  }
+  .player__ten-point {
+    right: 206px;
+  }
+}
+@media screen and (max-width:980px){
+  .carts {
+    display: flex;
+      width: 650px;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 auto;
+      align-items: center;
+  }
+  .tail {
+    width: 60px;
+    height: 60px;
+  }
+  .main {
+    width: 600px;
+  }
+  .main__image {
+    width: 600px;
+    height: 350px;
+  }
+  .player__five-point {
+    right: 220px;
+  }
+  .player__ten-point {
+    right: 136px;
+  }
+  .change__point {
+    transform: scale(2);
+  }
+  .player__point p {
+    font-size: 35px;
+}
+}
+
+@media screen and (max-width:670px){
+  .carts {
+    display: flex;
+      width: 485px;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 auto;
+      align-items: center;
+  }
+  .title {
+    font-size: 50px;
+}
+.checkbox {
+  flex-direction: column;
+}
+.main {
+  width: 400px;
+}
+.main__image {
+  width: 400px;
+  height: 250px;
+}
+.player__five-point {
+  right: 153px;
+  gap: 0px;
+  padding: 0px;
+}
+.player__ten-point {
+  right: 90px;
+  gap: 0px;
+  padding: 0px;
+}
+.change__point {
+  transform: scale(1.5);
+}
+.player__point p {
+  font-size: 25px;
+}
+.player__point {
+  gap: 2px;
+}
+}
+
+@media screen and (max-width:485px){
+  .carts {
+    display: flex;
+      width: 426px;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 auto;
+      align-items: center;
+  }
+  .tail {
+    width: 40px;
+    height: 40px;
+  }
+  .main {
+    width: 310px;
+  }
+  .main__image {
+    width: 310px;
+    height: 190px;
+  }
+  .ant-segmented {
+    position: relative;
+    left: 7vh;
+  }
+  .ant-segmented-group {
+    gap: 0px;
+  }
+  .player__five-point {
+    right: 123px;
+    gap: 0px;
+    padding: 0px;
+  }
+  .player__ten-point {
+    right: 75px;
+    gap: 0px;
+    padding: 0px;
+  }
+  .change__point {
+    transform: scale(1.5);
+  }
+  .player__point p {
+    font-size: 25px;
+  }
 }

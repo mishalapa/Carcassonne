@@ -194,19 +194,19 @@ const Tiles = () => {
       return localStorage.removeItem(logo)
     })
     logoDragon.map((logo) => {
-      localStorage.removeItem(logo)
+      return localStorage.removeItem(logo)
     })
     logoVulcan.map((logo) => {
-      localStorage.removeItem(logo)
+      return localStorage.removeItem(logo)
     })
     logoPortal.map((logo) => {
-      localStorage.removeItem(logo)
+      return localStorage.removeItem(logo)
     })
     logoPrincess.map((logo) => {
-      localStorage.removeItem(logo)
+      return localStorage.removeItem(logo)
     })
     logoTraders.map((logo) => {
-      localStorage.removeItem(logo)
+      return localStorage.removeItem(logo)
     })
     setTiles(!tiles)
   }
